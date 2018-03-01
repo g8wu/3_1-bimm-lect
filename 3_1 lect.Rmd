@@ -220,3 +220,10 @@ power.t.test(11, sd =1, power =.9, type = "two.sample",  alternative = "two.side
 #power.t.test(11, sd =1, power =.9, type = "two.sample",  alternative = "two.sided")
 ```
 
+Some Q's
+<br />1. Effect size is small?
+<br />
+<br />2. Why would you want to adjust false discovery rate?
+<br />Adjust for how accurate you want it to be (number of false positives against sample size)
+<br />3. Power gives you the power to do what?
+<br />Detect false positives, probability to reject the null hypothesis when it's false
